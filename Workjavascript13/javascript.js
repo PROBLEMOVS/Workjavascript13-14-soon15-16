@@ -186,9 +186,7 @@ function showError(text = "У Вас возникла какая-то плоха
     }, 5000);
 }
 document.getElementById("btnSubmit").addEventListener("click", () => {
-  // Тут можна додати перевірку або інші дії перед переходом
 
-  // Переадресація на index.html
   window.location.href = "index2.html";
 });
 showPrice();
