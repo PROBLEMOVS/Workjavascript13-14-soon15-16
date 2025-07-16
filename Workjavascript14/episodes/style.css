@@ -1,0 +1,42 @@
+/* ...твої базові стилі з попереднього коду залишаємо... */
+
+/* Контейнер аватарок з горизонтальним скролом */
+.residents-container {
+    margin-top: 12px;
+    display: flex;
+    gap: 6px;
+    overflow-x: auto;
+    padding-bottom: 8px;
+}
+
+/* Приховуємо стандартний скролбар для кращого вигляду (підтримується у більшості браузерів) */
+.residents-container::-webkit-scrollbar {
+    height: 6px;
+}
+
+.residents-container::-webkit-scrollbar-track {
+    background: #2c2f36;
+    border-radius: 3px;
+}
+
+.residents-container::-webkit-scrollbar-thumb {
+    background-color: #61dafb;
+    border-radius: 3px;
+}
+
+/* Аватарки персонажів */
+.resident-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 1px solid #444;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+
+.resident-avatar:hover {
+    transform: scale(1.1);
+    border-color: #61dafb;
+}
