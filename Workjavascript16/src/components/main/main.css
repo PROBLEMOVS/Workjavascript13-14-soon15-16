@@ -1,0 +1,19 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+}
+#root{
+    width: 600px;
+    background-color: white;
+}
+.header, .footer{
+    background-color: rgb(24, 24, 233);
+    height: 100px;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

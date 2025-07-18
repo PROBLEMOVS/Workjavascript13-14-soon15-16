@@ -1,0 +1,19 @@
+ul.content {
+  background-color: white;
+  list-style: none;
+  padding: 0;
+  margin: 1rem;
+}
+
+ul.content li {
+  display: flex;
+  align-items: center;
+  padding: 6px 10px;
+  border-bottom: 1px solid #ddd;
+  font-size: 16px;
+}
+
+ul.content li.done span:nth-child(2) {
+  text-decoration: line-through;
+  color: gray;
+}
